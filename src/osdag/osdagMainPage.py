@@ -989,8 +989,8 @@ def listen_for_keys():
 threading.Thread(target=listen_for_keys, daemon=True).start()
 
 def main():
-    while True:
-        do_stuff()  # Your main Osdag loop
+    # while True:
+    do_stuff()  # Your main Osdag loop
 
 if __name__ == '__main__':
     main()
