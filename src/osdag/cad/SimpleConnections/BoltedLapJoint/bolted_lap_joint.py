@@ -147,17 +147,3 @@ if __name__ == "__main__":
     display.DisableAntiAliasing()
     display.FitAll()
     start_display()
-
-
-# bolt_positions = [
-# # Format: (x, y, z)
-# # Left side, bottom and top corners of overlap
-# (edge, plate_length/2 - actual_overlap_length + end, (0.5*plate1_thickness)+plate2_thickness),
-# (edge + gauge, plate_length/2 - actual_overlap_length + end, (0.5*plate1_thickness)+plate2_thickness),
-# (edge, plate_length/2 - end, (0.5*plate1_thickness)+plate2_thickness),
-
-# # Right side, bottom and top corners of overlap
-# (plate_width - edge, plate_length/2 - actual_overlap_length + end, (0.5*plate1_thickness)+plate2_thickness),
-# (plate_width - edge, plate_length/2 - end, (0.5*plate1_thickness)+plate2_thickness)
-# ]
-    
